@@ -738,7 +738,7 @@ public:
 					;
 
 				bgfx::setViewClear(viewId, BGFX_CLEAR_COLOR, colorRGB8);
-				bgfx::setViewRect(viewId, 0,0,512,512);
+				bgfx::setViewRect(viewId, 50,50,412,412);
 
 				bgfx::touch(viewId);
 			}
