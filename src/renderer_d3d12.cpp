@@ -828,7 +828,7 @@ namespace bgfx { namespace d3d12
 						if (_init.debug)
 						{
 #if BX_PLATFORM_WINDOWS || BX_PLATFORM_WINRT
-							debug0->EnableDebugLayer();
+							//debug0->EnableDebugLayer();
 
 							{
 								ID3D12Debug1* debug1;
